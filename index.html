@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>EasyBank</title>
     <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style-desktop.css">
   </head>
   <body>
     <header>
@@ -13,7 +14,18 @@
         <img src="/images/logo.svg" alt="logo" />
       </div>
       <nav class="haeder-nav">
-        <img src="./images/icon-hamburger.svg" alt="burger" />
+        <img src="./images/icon-hamburger.svg" id="burger" alt="burger" />
+       <img src="./images/icon-close.svg" id="close" alt="X">
+       <div class="back-modal"></div> 
+       <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </nav>
+      <nav class="desktop-nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
@@ -22,6 +34,7 @@
           <li><a href="#">Careers</a></li>
         </ul>
       </nav>
+      <button id="desk-button">Request Invite</button>
     </header>
     <main>
       <div class="main-top">
